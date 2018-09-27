@@ -1,0 +1,126 @@
+/*
+#.dropdown-content
+    {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	  border:1px solid black;
+    }
+#.dropdown-content a
+    {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+#.dropdown-content a:hover
+    {
+	  background-color: #100;
+	  color:white;
+	  border:1px solid black;
+    }
+
+#.dropdown:hover .dropdown-content
+    {
+    display: block;
+    }
+
+*/
+header
+    {
+    background-color: #666;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    }
+nav {
+    float: left;
+    width: 30%;
+    height: 800px;
+    background: #f99;
+    padding: 20px;
+    }
+article
+    {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 800px;
+    }
+footer
+    {
+    background-color: #666;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    }
+body{
+    background-color: #f00;
+    }
+.topnav
+    {
+    background-color: #f99;
+    overflow: hidden;
+    }
+h1  {
+    color:black;
+    font-family:verdana, sans-serif;
+    }
+p   {
+    color:grey;
+    font-family:comicsansms, sans-serif;
+    }
+
+   li {
+        float: left;
+    }
+/*   li a, .dropbtn
+    {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 18px;
+    	margin:8px;
+        text-decoration: none
+      }
+---*/
+
+#poop
+    {
+    animation-name:retard, blitz;
+    animation-duration: 1s, 0.5s;
+    animation-iteration-count: infinite;
+    #transform:rotateY(40deg);
+    }
+@keyframes blitz
+    {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+
+#reefa
+    {
+    animation-name:flashing;
+    animation-duration: 0.75s;
+    animation-iteration-count: infinite;
+    }
+@keyframes flashing
+    {
+    0% {color: blue;}
+    25% {color: red;}
+    50% {color: green;}
+    75% {color: yellow;}
+    100% {color: blue;}
+    }
+@keyframes retard
+    {
+    0% {transform:rotateX(-0deg);}
+    100% {transform:rotateY(180deg);}
+    }
